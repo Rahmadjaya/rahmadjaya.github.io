@@ -1,0 +1,275 @@
+
+.poto{
+	background: #dddddd;
+	text-align: center;
+	margin-right:30px; 
+}
+.poto .judul{
+	text-align: center;
+	background: #9e9e9e;
+	padding: 5px;
+	text-align: center;
+}
+.poto .icon{
+	float: right;
+	width: 100px;
+	margin-top:-25px; 
+}
+.poto .isi img{
+	width: 200px;
+	margin: 10px;
+}
+.poto .isi{
+	
+}
+
+
+.biodata{
+	background: #dddddd;
+	text-align: center;
+	margin-right:30px;
+}
+.biodata .judul{
+	text-align: center;
+	background: #9e9e9e;
+	padding: 5px;
+}
+
+.biodata .isi{
+	justify-content: center;
+	width: 850px;
+	height: 200px;
+	margin: auto;
+}
+.biodata .isi .kiri{
+	width: 200px;
+	height: 100px;
+	
+	float: left;
+	text-align: left;
+
+}
+.biodata .icon{
+	float: right;
+	width: 100px;
+	margin-top:-25px; 
+}
+.biodata .isi .kanan{
+	width: 650px;
+	height: 100px;
+	
+	margin-left: 200px;
+	text-align: left;
+
+}
+
+ul li{
+	list-style-type: none;
+	margin-left: -20px;
+
+}
+
+.skill{
+	background: #dddddd;
+	text-align: center;
+	margin-right:30px;
+}
+.skill .judul{
+	text-align: center;
+	background: #9e9e9e;
+	padding: 5px;
+	text-align: center;
+}
+.skill .icon{
+	float: right;
+	width: 100px;
+	margin-top:-25px; 
+}
+.skill .isi{
+	margin: auto;
+	width: 850px;
+	height: 450px;
+}
+
+.skill .isi .kiri{
+	width: 100px;
+	height: 400px;
+	float: left;
+	text-align: left;
+	border: 1px solid #dddddd;
+}
+.skill .isi .kiri img{
+	width: 39px;
+	display: flex;
+}
+.skill .isi .kanan{
+	width: 650px;
+	height: 400px;
+	border: 1px solid #dddddd;
+	margin-left: 100px;
+	text-align: right;
+
+}
+.skill .isi .kanan .cdr{
+	width: 80%; background-color: #00ef37;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .ps{
+	width: 70%; background-color: #0077ff;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .word{
+	width: 90%; background-color: #2196F3;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .point{
+	width: 90%; background-color: #ff00c3;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .excel{
+	width: 85%; background-color: #00ef37;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .py{
+	width:70%; background-color: #170187;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .php{
+	width:83%; background-color: black;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: white;
+}
+.skill .isi .kanan .html{
+	width: 80%; background-color: #f99100;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.skill .isi .kanan .css{
+	width: 60%; background-color: #2196F3;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.skill .isi img{
+	width: 200px;
+	margin: 10px;
+}
+
+.cv{
+	background: #dddddd;
+	text-align: center;
+	margin-right:30px;
+}
+.cv .judul{
+	text-align: center;
+	background: #9e9e9e;
+	padding: 5px;
+}
+
+.cv .isi{
+	justify-content: center;
+	width: 850px;
+	height: 510px;
+	margin: auto;
+}
+.cv .icon{
+	float: right;
+	width: 100px;
+	margin-top:-25px; 
+}
+
+.cv .isi .atas{
+	margin-top: 10px; 
+	width: 850px;
+	height: 100px;
+	border:1px solid black;
+	border-radius: 10px;
+	background: aquamarine;
+}
+.cv .isi .atas h2{
+	display: block;
+	margin-top:2px; 
+}
+.cv .isi .atas h3{
+	display: block;
+	margin-top:-15px; 
+	border-top: 1px solid black;
+}
+.cv .isi .atas h1{
+	display: block;
+	height: 50px;
+	border-top: 1px solid black;
+	margin-top:-10px; 
+}
+
+.cv .isi .tengah{
+	margin-top: 10px; 
+	width: 850px;
+	height: 180px;
+	border:1px solid black;
+	border-radius: 10px;
+	background: aquamarine;
+	background: url('poto1.JPG') no-repeat;
+	background-position: center;
+	background-size: 100px;
+	
+}
+.cv .isi .tengah .kiri{
+	width: 400px;
+	height: 100px;
+	float: left;
+	text-align: left;
+}
+
+
+.cv .isi .tengah .kanan{
+	width: 450px;
+	height: 100px;
+	margin-left: 400px;
+	text-align: right;
+}
+
+.cv .isi .bawah{
+	margin-top: 10px; 
+	width: 850px;
+	height: 200px;
+	border:1px solid black;
+	border-radius: 10px;
+	background: aquamarine;
+
+}
+.cv .isi .bawah h2{
+	display: block;
+	margin-top:2px;
+	border-bottom: 1px solid black;
+
+}
+.cv .isi .bawah .kiri{
+	width: 200px;
+	height: 100px;
+	float: left;
+	text-align: left;
+	margin-left: 150px;
+}
+.cv .isi .bawah .kanan{
+	width: 550px;
+	height: 100px;
+	margin-left: 350px;
+	text-align: left;
+}

@@ -1,0 +1,73 @@
+
+.wrap{
+	height: 100%;
+	width : 100%;
+	position:relative;
+	overflow:hidden;
+	color: aquamarine;
+	text-align:center;
+}
+.photo h2{
+	font-weight: bold;
+}
+.photo img{
+	width: 200px;
+	border-radius:15px; 
+
+}
+
+
+header{
+	box-shadow: 0 0.5em 1.5em aquamarine;
+	top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+	position: relative;
+}
+
+header label{
+	cursor: pointer;
+	line-height: 1em;
+	font-weight: bold;
+	padding: 0 1em;
+	display: inline-block;
+
+}
+
+header label:hover{
+	background: aquamarine;
+	color: black;
+}
+
+.slide{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 10;
+	transition: left 0s .75s;
+	padding:  4em 1em 0;
+	color:black;
+}
+
+
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+
+
+
+
+body{
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/bc/f1/5b/bcf15b9de41c6eea24d2562c2e532095.jpg") no-repeat;
+	background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: courier;
+	font-weight: bold;
+}
